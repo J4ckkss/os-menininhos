@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio & Cases | Os menininhos</title>
+    <meta name="description" content="Explore a galeria interativa de projetos criados pela equipe Os menininhos." />
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+      <div class="container">
+        <div class="nav-container">
+          <a href="index.html" class="brand-logo">
+            Os menininhos<span class="dot"></span>
+          </a>
+
+          <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="essencia.html" class="nav-link">Essência</a>
+            <a href="servicos.html" class="nav-link">Serviços</a>
+            <a href="portfolio.html" class="nav-link active">Portfólio</a>
+            <a href="contato.html" class="nav-link">Contato</a>
+          </nav>
+
+          <a href="contato.html" class="nav-cta-btn">
+            <i class="ph ph-chat-circle-dots"></i>
+            <span>Bora Criar?</span>
+          </a>
+
+          <button class="mobile-toggle" aria-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Portfólio -->
+      <section class="hero-section" style="padding-bottom: 3rem;">
+        <div class="container">
+          <div class="hero-badge-wrap">
+            <span class="badge-pill lime">
+              <i class="ph ph-sparkle"></i>
+              Nossos Trabalhos & Experiências
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Projetos que dão <span class="text-coral">orgulho</span> e geram <span class="text-blue">conversão</span>.
+          </h1>
+
+          <p class="hero-desc">
+            Aqui está uma amostra do que construímos quando unimos design arrojado, tecnologia de ponta e cuidado obsessivo com a experiência do usuário.
+          </p>
+        </div>
+      </section>
+
+      <!-- Galeria & Filtros -->
+      <section style="padding: 2rem 0 6rem;">
+        <div class="container">
+          
+          <!-- Barra de Filtros -->
+          <div class="portfolio-filter-bar">
+            <button class="filter-btn active" data-filter="all">Todos os Projetos</button>
+            <button class="filter-btn" data-filter="landing">Landing Pages</button>
+            <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            <button class="filter-btn" data-filter="institucional">Institucionais</button>
+            <button class="filter-btn" data-filter="app">Web Apps</button>
+          </div>
+
+          <!-- Grid de Projetos -->
+          <div class="portfolio-grid">
+            
+            <!-- Case 1: Landing Page Fintech -->
+            <div class="project-card" data-category="landing">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#090D16"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#131B2E" stroke="#1E293B"/>
+                  <circle cx="60" cy="60" r="5" fill="#FF4820"/>
+                  <circle cx="76" cy="60" r="5" fill="#F59E0B"/>
+                  <circle cx="92" cy="60" r="5" fill="#10B981"/>
+                  <rect x="60" y="100" width="220" height="32" rx="6" fill="#38BDF8"/>
+                  <rect x="60" y="145" width="260" height="14" rx="4" fill="#94A3B8" fill-opacity="0.7"/>
+                  <rect x="60" y="170" width="200" height="14" rx="4" fill="#94A3B8" fill-opacity="0.4"/>
+                  <rect x="60" y="210" width="140" height="42" rx="21" fill="#FF4820"/>
+                  <!-- Card Gráfico Interativo -->
+                  <rect x="340" y="80" width="190" height="210" rx="14" fill="#1E293B" stroke="#334155"/>
+                  <circle cx="435" cy="150" r="45" fill="#2563EB" fill-opacity="0.2" stroke="#38BDF8" stroke-width="3"/>
+                  <rect x="365" y="225" width="140" height="14" rx="4" fill="#38BDF8"/>
+                  <rect x="385" y="250" width="100" height="10" rx="3" fill="#64748B"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">Landing Page</span>
+                  <span class="project-tag">Fintech</span>
+                  <span class="project-tag" style="color: var(--accent-lime); background: var(--accent-lime-light);">+42% Leads</span>
+                </div>
+                <h3>NeoPay Global</h3>
+                <p>Estrutura focada em geração de leads com formulário em 2 etapas, microinterações e velocidade 99 no Google PageSpeed.</p>
+              </div>
+            </div>
+
+            <!-- Case 2: E-commerce Moda Urbana -->
+            <div class="project-card" data-category="ecommerce">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#F8FAFC"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+                  <rect x="60" y="60" width="120" height="20" rx="4" fill="#0F172A"/>
+                  <rect x="60" y="110" width="200" height="32" rx="6" fill="#0F172A"/>
+                  <rect x="60" y="155" width="180" height="14" rx="4" fill="#64748B"/>
+                  <rect x="60" y="195" width="110" height="38" rx="8" fill="#FF4820"/>
+                  <!-- Products Showroom -->
+                  <rect x="300" y="75" width="110" height="160" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+                  <rect x="430" y="75" width="110" height="160" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+                  <rect x="315" y="195" width="80" height="14" rx="4" fill="#0F172A"/>
+                  <rect x="445" y="195" width="80" height="14" rx="4" fill="#0F172A"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">E-commerce</span>
+                  <span class="project-tag">Streetwear</span>
+                  <span class="project-tag" style="color: var(--accent-blue); background: var(--accent-blue-light);">0.4s Checkout</span>
+                </div>
+                <h3>Aura Urban Wear</h3>
+                <p>E-commerce leve com transição instantânea entre fotos de produtos, mini-carrinho lateral e integração Pix nativa.</p>
+              </div>
+            </div>
+
+            <!-- Case 3: Institucional Arquitetura -->
+            <div class="project-card" data-category="institucional">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#18181B"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#27272A" stroke="#3F3F46"/>
+                  <rect x="60" y="70" width="480" height="180" rx="10" fill="#3F3F46" fill-opacity="0.5"/>
+                  <path d="M120 200 L250 120 L380 200 Z" fill="#71717A" fill-opacity="0.4"/>
+                  <rect x="60" y="270" width="220" height="24" rx="4" fill="#F4F4F5"/>
+                  <rect x="360" y="270" width="180" height="24" rx="4" fill="#A1A1AA"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">Institucional</span>
+                  <span class="project-tag">Arquitetura</span>
+                  <span class="project-tag" style="color: var(--accent-gold); background: var(--accent-gold-light);">Design Awwwards</span>
+                </div>
+                <h3>Studio Voxel Arquitetura</h3>
+                <p>Site institucional minimalista com rolagem em parallax suave e galeria imersiva de projetos em tela cheia.</p>
+              </div>
+            </div>
+
+            <!-- Case 4: Web App Dashboard -->
+            <div class="project-card" data-category="app">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#0F172A"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#1E293B" stroke="#334155"/>
+                  <!-- Sidebar -->
+                  <rect x="50" y="50" width="90" height="275" rx="8" fill="#0F172A"/>
+                  <circle cx="70" cy="80" r="10" fill="#FF4820"/>
+                  <rect x="65" y="115" width="60" height="12" rx="3" fill="#64748B"/>
+                  <rect x="65" y="145" width="60" height="12" rx="3" fill="#64748B"/>
+                  <rect x="65" y="175" width="60" height="12" rx="3" fill="#64748B"/>
+                  <!-- Main dashboard widgets -->
+                  <rect x="160" y="60" width="170" height="90" rx="8" fill="#334155"/>
+                  <rect x="350" y="60" width="190" height="90" rx="8" fill="#334155"/>
+                  <rect x="160" y="170" width="380" height="140" rx="8" fill="#334155"/>
+                  <path d="M180 270 Q 240 200, 300 240 T 420 190 T 520 220" stroke="#38BDF8" stroke-width="4" fill="none"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">Web App</span>
+                  <span class="project-tag">SaaS Analytics</span>
+                  <span class="project-tag" style="color: var(--accent-purple); background: var(--accent-purple-light);">Cloud Real-Time</span>
+                </div>
+                <h3>Metrika Cloud</h3>
+                <p>Plataforma de métricas e analytics com renderização em tempo real e interface pensada para produtividade diária.</p>
+              </div>
+            </div>
+
+            <!-- Case 5: Landing Page Clínica & Saúde -->
+            <div class="project-card" data-category="landing">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#ECFDF5"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#FFFFFF" stroke="#A7F3D0"/>
+                  <rect x="60" y="60" width="100" height="18" rx="4" fill="#059669"/>
+                  <rect x="60" y="100" width="230" height="32" rx="6" fill="#065F46"/>
+                  <rect x="60" y="145" width="240" height="14" rx="4" fill="#6EE7B7"/>
+                  <rect x="60" y="195" width="150" height="42" rx="21" fill="#059669"/>
+                  <!-- Illustration element -->
+                  <circle cx="430" cy="180" r="70" fill="#D1FAE5"/>
+                  <path d="M430 140 V220 M390 180 H470" stroke="#059669" stroke-width="12" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">Landing Page</span>
+                  <span class="project-tag">Saúde & Bem Estar</span>
+                </div>
+                <h3>Clínica Vitalità</h3>
+                <p>Agendamento direto integrado via WhatsApp, com design acolhedor e alta taxa de conversão local.</p>
+              </div>
+            </div>
+
+            <!-- Case 6: Institucional Consultoria -->
+            <div class="project-card" data-category="institucional">
+              <div class="project-mockup-wrap">
+                <svg class="project-mockup-svg" viewBox="0 0 600 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="600" height="375" fill="#FFFBEB"/>
+                  <rect x="30" y="30" width="540" height="315" rx="16" fill="#FFFFFF" stroke="#FDE68A"/>
+                  <rect x="60" y="70" width="200" height="28" rx="6" fill="#78350F"/>
+                  <rect x="60" y="115" width="220" height="14" rx="4" fill="#B45309"/>
+                  <rect x="60" y="160" width="130" height="40" rx="8" fill="#F59E0B"/>
+                  <rect x="330" y="70" width="200" height="210" rx="12" fill="#FEF3C7"/>
+                  <circle cx="430" cy="175" r="45" fill="#F59E0B" fill-opacity="0.4"/>
+                </svg>
+              </div>
+              <div class="project-info">
+                <div class="project-tags">
+                  <span class="project-tag">Institucional</span>
+                  <span class="project-tag">Negócios</span>
+                </div>
+                <h3>Apex Capital Partners</h3>
+                <p>Portal institucional elegante e sóbrio, transmitindo solidez e segurança para investidores de alto padrão.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section" style="padding-top: 0;">
+        <div class="container">
+          <div class="plaster-card" style="text-align: center; padding: 4rem 2rem;">
+            <h2>Quer que o próximo case de sucesso seja o seu?</h2>
+            <p style="max-width: 500px; margin: 0 auto 2rem;">
+              Vamos conversar e planejar um site incrível para sua marca se destacar.
+            </p>
+            <a href="contato.html" class="btn btn-primary">
+              <i class="ph ph-chat-circle-dots"></i>
+              Bora Iniciar Meu Projeto
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h3>Os menininhos.</h3>
+            <p>Criação, gestão e suporte de sites com personalidade, velocidade e zero complicação.</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="essencia.html">Nossa Essência</a></li>
+              <li><a href="servicos.html">Serviços & Pilares</a></li>
+              <li><a href="portfolio.html">Portfólio</a></li>
+              <li><a href="contato.html">Contato & Briefing</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Serviços</h4>
+            <ul class="footer-links">
+              <li><a href="servicos.html">Criação de Sites</a></li>
+              <li><a href="servicos.html">Gestão e Cloud</a></li>
+              <li><a href="servicos.html">Suporte & Manutenção</a></li>
+              <li><a href="servicos.html">SEO Técnico</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Fale com a Gente</h4>
+            <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem; font-size: 0.95rem;">
+              Tem uma ideia ou precisa de ajuda com seu site atual?
+            </p>
+            <a href="contato.html" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">
+              Iniciar Conversa
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Os menininhos. Todos os direitos reservados.</p>
+          <p>Feito com paixão, café e muito bom humor.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="whatsapp-float-bubble" aria-label="Falar no WhatsApp">
+      <div class="whatsapp-pulse-ring"></div>
+      <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
