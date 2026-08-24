@@ -242,12 +242,25 @@ section {
 .brand-logo {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.6rem;
   font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--text-main);
   letter-spacing: -0.02em;
+}
+
+.brand-logo-video {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  display: block;
+  border: 1.5px solid var(--border-medium);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--bg-plaster-alt);
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .brand-logo .dot {
