@@ -256,9 +256,9 @@ section {
   border-radius: var(--radius-sm);
   object-fit: cover;
   display: block;
-  border: 1.5px solid var(--border-medium);
+  border: 1px solid var(--border-soft);
   box-shadow: var(--shadow-sm);
-  background-color: var(--bg-plaster-alt);
+  background-color: transparent;
   flex-shrink: 0;
   overflow: hidden;
 }
